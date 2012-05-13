@@ -7,4 +7,4 @@ If the color attribute is connected the script wont change the connection and wo
 Multiple material nodes can be selected. 
 
 By default a gamma correct node will be inserted between the ramp and the material. The default gamma correct value is 0.455 0.455 0.455. These behavours can can be changed in the script on line 5 and 6.  
-The default Naming convention is `{name of the selected node}_Color` and `{name of the selected node}_Color_GammaCorrect`. Also can be changed in the script.
+The default Naming convention is `{name of the selected material}_Color` for the ramp and `{name of the selected material}_Color_GammaCorrect` for the gamma correct. Also can be changed in the script.
